@@ -1,4 +1,4 @@
-# 🌍 Countries & major cities supported by Adzuna
+# Countries & major cities supported by Adzuna
 COUNTRIES = {
     "gb": ["london", "manchester", "birmingham"],
     "us": ["new york", "san francisco", "chicago", "austin"],
@@ -21,7 +21,7 @@ COUNTRIES = {
     "za": ["johannesburg", "cape town"]
 }
 
-# 💼 High-demand job role queries across tech, business, design, etc.
+# High-demand job role queries across tech, business, design, etc.
 QUERIES = [
     # Data & Analytics
     "data analyst", "business analyst", "financial analyst", "marketing analyst",
@@ -50,5 +50,64 @@ QUERIES = [
     "accountant", "bookkeeper", "risk analyst", "compliance officer"
 ]
 
-
 PAGES = range(1, 2)  
+
+
+NORMALIZATION_MAP = {
+    # Programming Languages
+    "py": "python",
+    "python3": "python",
+    "python 3": "python",
+    "r programming": "r",
+    "c plus plus": "c++",
+    "cplusplus": "c++",
+
+    # Data/BI Tools
+    "powerbi": "power bi",
+    "power-bi": "power bi",
+    "power_bi": "power bi",
+    "microsoft power bi": "power bi",
+    "ms excel": "excel",
+    "microsoft excel": "excel",
+    "excel spreadsheet": "excel",
+    "spreadsheet": "excel",
+    "tableau software": "tableau",
+
+    # Cloud Platforms
+    "amazon web services": "aws",
+    "aws cloud": "aws",
+    "microsoft azure": "azure",
+    "google cloud": "gcp",
+    "google cloud platform": "gcp",
+    "gcp cloud": "gcp",
+
+    # ML / AI
+    "ml": "machine learning",
+    "ai": "artificial intelligence",
+    "deep learning techniques": "deep learning",
+
+    # DevOps / Infra
+    "docker container": "docker",
+    "containerization": "docker",
+    "version control": "git",
+    "github": "git",
+    "bitbucket": "git",
+    "linux environment": "linux",
+    "unix": "linux",
+    "bash scripting": "bash",
+
+    # Big Data / ETL
+    "apache spark": "spark",
+    "pyspark": "spark",
+    "etl pipeline": "etl",
+    "data pipeline": "etl",
+    "data pipelines": "etl",
+
+    # Other Tools
+    "jira software": "jira",
+    "google sheets": "excel",
+    "communication skills": "communication",
+    "problem-solving": "problem solving",
+    "data viz": "data visualization",
+    "data visualisation": "data visualization"
+}
